@@ -19,7 +19,7 @@ cloudinary.config({
 app.use(express.json());
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:4173'  
+    origin: 'https://katnidaily.netlify.app/'  
 }));
 app.use(fileUpload({
     useTempFiles: true,
